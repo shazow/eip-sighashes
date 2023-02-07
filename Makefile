@@ -7,3 +7,6 @@ erc-eips.txt:
 
 eip-functions.txt: $(EIP_DIR)/*
 	grep -r -o -h -E "^[\s\`]*function \w*\(.*)" $(EIP_DIR) | cut -d '`' -f2- > $@
+
+update-submodules:
+	git submodule update --init --recursive --remote
