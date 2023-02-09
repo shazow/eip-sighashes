@@ -9,7 +9,7 @@ eip-functions.txt: EIPs $(EIP_DIR)/*
 	grep -r -o -h -E "^[\s\`]*function \w*\(.*)" $(EIP_DIR) | grep -v ")*internal" | cut -d '`' -f2- > $@
 
 sighashes.json: eip-functions.txt
-	cat $< | ./buildindex.sh | jq > $@
+	cat $< | ./buildindex.sh | jq --sort-keys > $@
 
 EIPs:
 
