@@ -15,6 +15,7 @@
 
         devShell = with pkgs; mkShell {
           buildInputs = [
+            jq
             foundry-bin
           ];
 
