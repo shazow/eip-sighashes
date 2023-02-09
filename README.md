@@ -1,6 +1,8 @@
 # eip-sighashes
 
-Ethereum 4-byte signature hashes extracted from EIPs
+Ethereum 4-byte signature hashes extracted from EIPs.
+
+Updated every Monday.
 
 See: [sighashes.json](https://raw.githubusercontent.com/shazow/eip-sighashes/main/sighashes.json) for the latest collection.
 
