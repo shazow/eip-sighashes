@@ -7,7 +7,7 @@ See: [sighashes.json](https://raw.githubusercontent.com/shazow/eip-sighashes/mai
 ## Updating
 
 ```
-$ nix develop
+$ nix develop  # Or install `foundry` and `jq`
 [dev] $ make
 ...
 ```
