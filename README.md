@@ -4,6 +4,14 @@ Ethereum 4-byte signature hashes extracted from EIPs
 
 See: [sighashes.json](https://raw.githubusercontent.com/shazow/eip-sighashes/main/sighashes.json) for the latest collection.
 
+## Updating
+
+```
+$ nix develop
+[dev] $ make
+...
+```
+
 ## How does this work?
 
 1. Clone the EIPs repo
