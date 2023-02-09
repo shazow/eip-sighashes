@@ -8,7 +8,7 @@ while read line; do
     if [[ $? == 1 ]]; then
         continue # Couldn't parse, skip
     fi
-    echo -e -n "${leading}\t\"${sighash}\": \"$line\""
+    echo -e -n "${leading}\t\"${sighash}\": \"${line#function }\""
     leading=",\n"
 done
 echo ""
