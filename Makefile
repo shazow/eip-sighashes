@@ -8,7 +8,7 @@ erc-eips.txt:
 eip-functions.txt: EIPs $(EIP_DIR)/*
 	grep -r -o -h -E "^[\s\`]*function \w*\(.*)" $(EIP_DIR) | grep -v ")*internal" | cut -d '`' -f2- > $@
 
-sighashes.json: eip-functions.txt
+sighashes.json: eip-functions.txt buildindex.sh
 	cat $< | ./buildindex.sh | jq --sort-keys > $@
 
 EIPs:
