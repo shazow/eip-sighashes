@@ -313,6 +313,7 @@
   "0xcaf12836": "chunkSize(bytes memory name, uint256 chunkId) external view returns (uint256 chunkSize, bool exist)",
   "0xcb914962": "executeGasRelayMsg(uint256 _nonce, bytes memory _execData, uint256 _gasPrice, uint256 _gasLimit, address _gasToken, address _gasRelayer) public pure returns (bytes memory)",
   "0xcbe52ae3": "previewRedeem(address tokenOut, uint256 amountSharesToRedeem)",
+  "0xccd1c635": "onPageLoad()",
   "0xccea7b86": "redeemedSupply(uint256 classId, uint256 nonceId) external view returns (uint256)",
   "0xcd6c8343": "getAttributeValue(address account, uint256 attributeTypeID) external view returns (uint256)",
   "0xcde4ef4d": "givePostingPermission(address _newAnnouncer, bool _postingPrivileges, string _posterName) public onlyOwner returns(bool success)",
