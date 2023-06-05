@@ -306,6 +306,7 @@
   "0xc2458d6b": "totalSupply(uint256 classId, uint256 nonceId) external view returns (uint256)",
   "0xc290d691": "pay(uint256 _item) onlyWallet(msg.sender) public payable returns (bool success)",
   "0xc2f1f14a": "userOf(uint256 itemId) public view returns (address)",
+  "0xc420d393": "getHoldingInfo(uint256 tokenId) external view returns (address holder, uint256 holdingTime)",
   "0xc66130d7": "balanceOfOwner(address owner) public view returns (uint256)",
   "0xc6cfdec2": "getLostAccountRecoveryTimeInMinutes(address account) view returns (uint256 minutes)",
   "0xc752ff62": "totalUpgraded() external view returns(uint256)",
