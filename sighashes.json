@@ -303,6 +303,7 @@
   "0xbf5a4dd3": "unlist(uint256 tokenId)",
   "0xc043f83c": "getApprovedTenantRight(uint256 itemId) public view returns (address)",
   "0xc0ee0b8a": "tokenFallback(address _from, uint256 _value, bytes _data)",
+  "0xc1b3f161": "validateOwnership(address caller, uint256 value, bytes calldata)",
   "0xc2458d6b": "totalSupply(uint256 classId, uint256 nonceId) external view returns (uint256)",
   "0xc290d691": "pay(uint256 _item) onlyWallet(msg.sender) public payable returns (bool success)",
   "0xc2f1f14a": "userOf(uint256 itemId) public view returns (address)",
