@@ -235,6 +235,7 @@
   "0x7fec8d38": "trigger() external isAuthorized returns (bool)",
   "0x80a4ec3f": "authoriseCaller(address owner, address caller, address callee, bytes4 func)",
   "0x80b29f7c": "revokeDelegate(address identity, bytes32 delegateType, address delegate)",
+  "0x81d14ffc": "commit(string memory assetCid, string memory commitData) public returns (uint256 blockNumber)",
   "0x84b0196e": "eip712Domain()",
   "0x85e3f058": "getIdentity(uint ein)",
   "0x8733d4e8": "identityOwner(address identity) public view returns(address)",
