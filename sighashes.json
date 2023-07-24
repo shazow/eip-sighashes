@@ -241,7 +241,7 @@
   "0x87cdc60b": "RealIm(bytes32 _cn)  public pure returns (int128 Real, int128 Imag)",
   "0x89112f44": "getNomination(address _nominator) external view returns (address proxy)",
   "0x8911443a": "setLostAccountRecoveryTimeInMinutes(uint256 minutes) returns (bool success)",
-  "0x8943ec02": "tokenReceived(address _from, uint _value, bytes calldata _data)",
+  "0x8943ec02": "tokenReceived(address _from, uint _value, bytes calldata _data) returns (bytes4)",
   "0x894e9a0d": "getStream(uint256 _streamId) returns (address sender, address recipient, address tokenAddress, uint256 balance, uint256 startBlock, uint256 stopBlock, uint256 payment, uint256 interval)",
   "0x8b805b36": "decisionAssembly() returns (address)",
   "0x8b95dd71": "setAddr(bytes32 node, uint coinType, bytes calldata addr)",

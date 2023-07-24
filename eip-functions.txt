@@ -444,7 +444,7 @@ function textFor(bytes32 _code) external view returns (bool _wasFound, string _t
 function textFor(bytes32 _code) external view returns (string _text)
 function theNumberOfAnnouncements() public constant returns(uint256 _numberOfAnnouncements)
 function tokenFallback(address _from, uint256 _value, bytes _data)
-function tokenReceived(address _from, uint _value, bytes calldata _data)
+function tokenReceived(address _from, uint _value, bytes calldata _data) returns (bytes4)
 function tokenTransfer(IERC20 token, address recipient, uint256 amount)
 function totalBalanceOf(address _of)  view returns (uint256 amount)
 function totalNumberOfItems() public view returns (uint256)
