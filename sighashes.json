@@ -188,6 +188,7 @@
   "0x5df8122f": "setManager(address _addr, address _newManager)",
   "0x5e1d5482": "about() view returns (address _erc20, uint256 _up, uint256 _down)",
   "0x5e5212c8": "isDowngradeActive() external view returns(bool)",
+  "0x613255ab": "maxFlashLoan(address token) public pure override returns (uint256)",
   "0x61d585da": "state(bytes32 _hash) constant returns (Mode)",
   "0x622b2a3c": "validDelegate(address identity, bytes32 delegateType, address delegate) public view returns(bool)",
   "0x62b21679": "getApprovedForUser(uint256 itemId) public view returns (address)",
