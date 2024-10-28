@@ -1,4 +1,5 @@
 {
+  "0x0d2020dd": "getContractAddress(bytes32 codehash) public view returns (address)",
   "0x267cda3c": "reduceIssuance(uint)",
   "0x3de39c11": "maxGasPrice() public view returns (uint)",
   "0x403de107": "executeDecision(uint)",
