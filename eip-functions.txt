@@ -6,6 +6,8 @@ function F(uint32 rounds, bytes32[2] memory h, bytes32[4] memory m, bytes8[2] me
 function HashToBase(msg, dsp1, dsp2)
 function HashToG1(msg)
 function HashToG2(msg)
+function addConsolidation(bytes memory srcPubkey, bytes memory targetPubkey)
+function addWithdrawal(bytes memory pubkey, uint64 amount)
 function callF() public view returns (bytes32[2] memory)
 function changeTargetContract(address)
 function decisionAssembly() returns (address)
