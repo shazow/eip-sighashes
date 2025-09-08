@@ -1,5 +1,6 @@
 function BaseToG1(t)
 function BaseToTwist(t)
+function CalculateIntrinsicGas(tx, state_at_start)
 function ClearCofactor(twistElement)
 function ConstantTimeEquality(a, b)
 function F(uint32 rounds, bytes32[2] memory h, bytes32[4] memory m, bytes8[2] memory t, bool f) public view returns (bytes32[2] memory)
