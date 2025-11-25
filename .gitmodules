@@ -1,3 +1,6 @@
 [submodule "EIPs"]
 	path = EIPs
 	url = https://github.com/ethereum/EIPs
+[submodule "ERCs"]
+	path = ERCs
+	url = https://github.com/ethereum/ERCs
