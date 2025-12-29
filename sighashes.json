@@ -441,6 +441,7 @@
   "0xccea7b86": "redeemedSupply(uint256 classId, uint256 nonceId) external view returns (uint256)",
   "0xcd6c8343": "getAttributeValue(address account, uint256 attributeTypeID) external view returns (uint256)",
   "0xcde4ef4d": "givePostingPermission(address _newAnnouncer, bool _postingPrivileges, string _posterName) public onlyOwner returns(bool success)",
+  "0xcdffacc6": "facetAddress(bytes4 _functionSelector) external view returns (address)",
   "0xce4484a7": "getAlternativeSignature(bytes32 _digest) external view returns (string)",
   "0xce5570ec": "isWallet(address _wallet) public constant returns (bool)",
   "0xce7cc129": "upgradeSource() external view returns(address)",
