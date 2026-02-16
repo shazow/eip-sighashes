@@ -212,6 +212,8 @@ function executeGasRelayMsg(uint256 _nonce, bytes memory _execData, uint256 _gas
 function executeUserOp(PackedUserOperation calldata userOp, bytes32 userOpHash)
 function exercise(uint256 id, uint256 amount)
 function existsTokenReward(address token) public view returns (bool)
+function exportSelectors() external pure returns (bytes memory selectors)
+function exportSelectors() external pure returns (bytes memory)
 function extractStuckERC20(address _token)
 function facetAddress(bytes4 _functionSelector) external view returns (address)
 function fill(bytes32 orderId, bytes calldata originData, bytes calldata fillerData)

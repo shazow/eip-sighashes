@@ -46,6 +46,7 @@
   "0x0dbaaedb": "_distributeFR(uint256 tokenId, uint256 soldPrice)",
   "0x0dca1c89": "getCurrentTenantRight(uint256 itemId) public view returns (address)",
   "0x0e62fde6": "getAttributeTypeID(uint256 index) external view returns (uint256)",
+  "0x0ef22643": "exportSelectors() external pure returns (bytes memory)",
   "0x0ef94a6c": "isInt(uint num) public pure returns (byte status)",
   "0x0f485c02": "transferFrom(uint256 _fromTokenId, address _to, uint256 _value) external payable returns (uint256 toTokenId_)",
   "0x0fd9507d": "changeListOwnerSigned(address newOwner, address namespace, bytes32 revocationList, address signer, bytes calldata signature)",
