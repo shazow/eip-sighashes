@@ -521,6 +521,7 @@
   "0xe846fd91": "addResolvers(address[] memory resolvers)",
   "0xe8927fbc": "increase() public returns (byte _status)",
   "0xe89401a1": "multihash(bytes32 node) public view returns (bytes)",
+  "0xe8a3d485": "contractURI() external view returns (string memory)",
   "0xe985e9c5": "isApprovedForAll(address requester, address operator) public view returns (bool)",
   "0xea4eb8f2": "getApprovedForOwner(uint256 itemId) public view returns (address)",
   "0xeaf1c6d3": "getAttribute(uint256 _id, string calldata _name) external view returns (bytes32)",

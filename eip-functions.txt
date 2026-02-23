@@ -154,6 +154,7 @@ function confirmTrade(address withParty, string memory tradeData, int position, 
 function confirmTradeTermination(string memory tradeId, int256 terminationPayment, string memory terminationTerms)
 function confirmTransfer(uint256 id, int amount, address to, bytes keyHashedBuyer, bytes memory keyEncryptedBuyer)
 function confirmUpdate(uint256 _streamId, address _tokenAddress, uint256 _stopBlock, uint256 _payment, uint256 _interval)
+function contractURI() external view returns (string memory)
 function convertERC20(address _token, uint256 _amount) public returns (bool)
 function copyrightOwner(uint256 tokenId)
 function countAttributeTypes() external view returns (uint256)
