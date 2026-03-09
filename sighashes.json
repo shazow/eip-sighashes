@@ -493,6 +493,7 @@
   "0xdacf3af6": "removeListDelegateSigned(address delegate, address namespace, bytes32 revocationList, address signer, bytes calldata signature)",
   "0xdb006a75": "redeem(uint256 _streamId)",
   "0xdb191d5d": "updatePremium(uint256 id, uint256 amount)",
+  "0xdc08fb1d": "beforeAction(uint256 jobId, bytes4 selector, bytes calldata data)",
   "0xdc994461": "getBlockOfDeath() constant returns (uint256 block)",
   "0xdc9cc645": "getImplementation(bytes4 functionSelector) external view returns(address implementation)",
   "0xdcfc4726": "participate(bytes32 secretHash, uint256 assetRefundTime)",
