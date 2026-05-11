@@ -330,7 +330,6 @@
   "0x86b6ac68": "testRiskScoreTiers()",
   "0x86d1743f": "updateAllowed(uint256 id, address[] memory allowed)",
   "0x8733d4e8": "identityOwner(address identity) public view returns(address)",
-  "0x87a0975e": "removeDeliveryKey()",
   "0x87cdc60b": "RealIm(bytes32 _cn)  public pure returns (int128 Real, int128 Imag)",
   "0x88bc6857": "wrappedBalanceOf(address account, uint256 id, bytes calldata data) external view returns (uint256)",
   "0x88c3383d": "testRevertsWithInsufficientCredits()",
