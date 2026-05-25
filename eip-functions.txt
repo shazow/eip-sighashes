@@ -736,6 +736,7 @@ function validationResponse(bytes32 requestHash, uint8 response, string response
 function verifyDataProof(mixHash, blockHeight, m_index, m_path, m_leaf_data)
 function verifyGasLimit(uint256 desiredGasLimit, bytes memory signature, address signer, bytes memory someOtherData)
 function verifyIssuer(Know memory claim, uint8 v, bytes32 r, bytes32 s) public returns (address)
+function verifyOriginBinding(metadataURI, endpoint)
 function viewReward(address account) public view returns (uint256[] memory)
 function vouch(Know memory claim, uint8 v, bytes32 r, bytes32 s) public returns (bool)
 function withdraw() external isAuthorized returns (bool)
