@@ -430,6 +430,7 @@
   "0xb8a5c2a6": "removeResolvers(address[] memory resolvers)",
   "0xb8f82b26": "previewDeposit(address tokenIn, uint256 amountTokenToDeposit)",
   "0xb93f208a": "reveal(uint256[] calldata tokenIds)",
+  "0xba188631": "add_pending_deposit(bytes32 commitment)",
   "0xbab0ac03": "isActive(uint256 agentId, address principal) public view returns (bool)",
   "0xbae6565d": "getHint(address _namespace, bytes32 _list, bytes32 _key) external view returns (bytes32)",
   "0xbb1f64df": "confirmTransfer(uint256 id, int amount, address to, bytes keyHashedBuyer, bytes memory keyEncryptedBuyer)",
