@@ -153,6 +153,8 @@ function commit(string memory assetCid, string memory commitData) public returns
 function commitForceWithdraw(uint256 requestID)
 function completeTransaction(uint256 hash, bytes memory signature)
 function compress(uint256 full) public pure returns (uint64 cint)
+function computeBundleHash(DocumentEntry[] memory entries)
+function computeCanonicalBundleHash(DocumentEntry[] memory entries)
 function computeDowngrade(uint256 destinationAmount)
 function computeUpgrade(uint256 sourceAmount)
 function confidentialAllowance(address _owner, address _spender)
