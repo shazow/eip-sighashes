@@ -36,6 +36,7 @@
   "0x095bcdb6": "transfer(address _to, uint256 _classId, uint256 quantity)",
   "0x095ea7b3": "approve(address to, uint256 itemId)",
   "0x09824a80": "registerToken(address _token) public returns(bool success)",
+  "0x0a9254e4": "setUp()",
   "0x0af28bd3": "setAgentURI(uint256 agentId, string calldata newURI)",
   "0x0b20055e": "setTenantRight(uint256 itemId)",
   "0x0b571a05": "decompress(uint64 cint) public pure returns (uint256 full)",
