@@ -577,6 +577,7 @@
   "0xf4e24abe": "setListOwnerSigned(address _namespace, bytes32 _list, address _newOwner, address _signer, bytes calldata _signature)",
   "0xf540a4f4": "createNamespace(bytes32 namespace)",
   "0xf5ad771e": "setMetadataDelegatedSigned(address _namespace, bytes32 _list, bytes32 _key, bytes32 _value, bytes calldata _metadata, address _signer, bytes calldata _signature)",
+  "0xf704d91f": "resolveAgent(bytes32 node) public view returns (address)",
   "0xf712f3e8": "implementsERC165Interface(address _contract, bytes4 _interfaceId) public view returns (bool)",
   "0xf7987546": "getAdjustmentInterval() public view returns (uint)",
   "0xf83f99d0": "setFrozenTokensDelta(address account, int256 deltaAmount) external onlyOwner returns (bool result)",
